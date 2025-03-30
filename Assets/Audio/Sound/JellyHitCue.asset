@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81982aa10300354590b4ae8a0b3004a, type: 3}
+  m_Name: JellyHitCue
+  m_EditorClassIdentifier: 
+  options:
+  - clip: {fileID: 8300000, guid: 837a6c70d40852d49af3de11e45515d6, type: 3}
+    volume: 0.15
+  - clip: {fileID: 8300000, guid: 0e1f6dd13265dab4b991e391eaea4532, type: 3}
+    volume: 0.15
+  - clip: {fileID: 8300000, guid: b90aa7097bc62264badc5a07290ff8dd, type: 3}
+    volume: 0.15
+  minPitch: 0.8
+  maxPitch: 1.2
+  mixerGroup: {fileID: -1314153612308329156, guid: 991abe0a7521dcd4ba84be8c9a512749, type: 2}

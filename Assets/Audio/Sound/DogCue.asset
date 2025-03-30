@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81982aa10300354590b4ae8a0b3004a, type: 3}
+  m_Name: DogCue
+  m_EditorClassIdentifier: 
+  options:
+  - clip: {fileID: 8300000, guid: 852c22d11b11d1445a75c0743b1ed86c, type: 3}
+    volume: 0.3
+  - clip: {fileID: 8300000, guid: e73690559f2ad274f824ac20cf541551, type: 3}
+    volume: 0.3
+  - clip: {fileID: 8300000, guid: 25c58f72a61eb124584d761d8c00deb9, type: 3}
+    volume: 0.3
+  minPitch: 0.9
+  maxPitch: 1.4
+  mixerGroup: {fileID: -1314153612308329156, guid: 991abe0a7521dcd4ba84be8c9a512749, type: 2}

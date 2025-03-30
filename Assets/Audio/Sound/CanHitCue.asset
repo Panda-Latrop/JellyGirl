@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81982aa10300354590b4ae8a0b3004a, type: 3}
+  m_Name: CanHitCue
+  m_EditorClassIdentifier: 
+  options:
+  - clip: {fileID: 8300000, guid: f9070b83f25a8fa4db698bad20e3ad82, type: 3}
+    volume: 0.2
+  - clip: {fileID: 8300000, guid: dfb3957fce9fe2c4598068c12cc85994, type: 3}
+    volume: 0.2
+  - clip: {fileID: 8300000, guid: 7ad05d4e7b12a614499d047cca919e29, type: 3}
+    volume: 0.2
+  - clip: {fileID: 8300000, guid: 93531a63e64e6c643bc09d20789f9604, type: 3}
+    volume: 0.2
+  - clip: {fileID: 8300000, guid: 6e39817a6bc051b44a490c18c53ae440, type: 3}
+    volume: 0.2
+  minPitch: 0.9
+  maxPitch: 1.1
+  mixerGroup: {fileID: -1314153612308329156, guid: 991abe0a7521dcd4ba84be8c9a512749, type: 2}
